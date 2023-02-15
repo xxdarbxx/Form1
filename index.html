@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kodego Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <hr>
+    <form action="#" class="form1">
+        <fieldset>
+            <label for="#">Enter your First Name:<input type="text" required></label><br /><br />
+            <label for="#">Enter your Last Name:<input type="text" required></label><br /><br />
+            <label for="#">Enter your Email:<input type="email" required></label><br /><br />
+            <label for="#">Enter your Password<input type="password" minlength="8" pattern="[a-z0-5]{8}" required></label><br /><br />
+
+        </fieldset>
+
+        <fieldset>
+            <label for="#"><input type="radio" name="account-type" id="">Personal Account</label>
+            <label for="#"><input type="radio" name="account-type" id="">Business Partner Account</label>
+            <label for="#"><input type="checkbox">I accept the <a href="#">terms and condition</a></label>
+        </fieldset>
+        <fieldset>
+        <label for="#">Upload a file <input type="file" name="" id=""></label>
+        <label for="#">Input your age(years) <input type="number" min="13" max="120" name="" id=""></label>
+            <select>
+                <label>
+                    How did you hear from us
+                <option value="">(select one)</option>
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+            </select>
+        </label>
+        </fieldset>
+        <input type="submit">
+
+    </form>
+
+
+    
+</body>
+</html>

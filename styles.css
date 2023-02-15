@@ -1,0 +1,33 @@
+body{
+    background-color: gold;
+}
+
+input{
+    border-radius: 10px;
+}
+
+input[type=text]{
+    margin-left: 1rem;
+}
+
+input[type=email]{
+    margin-left: 3rem;
+}
+
+input[type=password]{
+    margin-left: 1.7rem;
+}
+
+label{
+    display: inline-block;
+}
+
+.inline{
+    width: unset;
+    margin: 0 0.5em 0;
+    vertical-align: middle;
+}
+
+textarea{
+    color: green;
+}
